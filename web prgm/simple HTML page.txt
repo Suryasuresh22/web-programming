@@ -1,0 +1,32 @@
+<head>
+<title>simple html page</title>
+<center>
+<body bgcolor="pink">
+<h1>ADI SHANKARA</h1>
+<h2>INSTITUTE OF ENGINEERING & TECHNOLOGY</h2>
+<img src="https://images.collegedunia.com/public/college_data/images/appImage/1503647889cover.jpg"></img>
+<marquee><font color="purple"><u>ADMISSION OPEN!</u></font></marquee>
+<h3><font color="red">ABOUT</font></h3>
+<h4>The Adi Shankara Institute of Engineering and Technology (ASIET), is a self-financing college, situated in Kalady, in Ernakulam district of Kerala. The college started on 31 August 2001. ASIET is affiliated to APJ Abdul Kalam Technological University. This institution received ISO 9001-2000 certification for the quality systems from KPMG quality registrar in the year 2002 and upgraded to ISO 9001-2008 in the year 2012. NBA accredited in 2018.</h4>
+</center>
+<hr>
+<h2>COURSES OFFERED</h2>
+
+<ol>
+<li>Electronics &Biomedical Engineering</li>
+<li>Computer Science</li>
+<li>Civil Engineering</li>
+<li>Mechanical Engineering</li>
+</ol>
+<h3><u>PG COURSE</u></h3>
+<ol>
+<li>M.Tech</li>
+<li>MBA</li>
+<li>MCA</li>
+</ol>
+<center><h4>Website:www.adishankara.ac.in<h4>
+<h6>0484-2463825,2466066</h6></center>
+
+</body>
+</head>
+</html>

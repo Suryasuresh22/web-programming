@@ -1,0 +1,154 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Exam</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<h1><center><B>Online Exam</center></h1>
+
+<form id="examForm">
+    <h3>Question 1: _______is the biggest continent in the world?</h3>
+    <input type="radio" name="q1" value="North America">North America 
+    <input type="radio" name="q1" value="london"> London
+    <input type="radio" name="q1" value="Asia"> Asia
+    <br><br>
+
+    <h3>Question 2:________is the longest river in the world?</h3>
+    <input type="radio" name="q2" value="Nile"> Nile
+    <input type="radio" name="q2" value="Amazon"> Amazon 
+    <input type="radio" name="q2" value="Niger"> Niger
+    <br><br>
+
+    <h3>Question 3: what is the largest ocean in the world"?</h3>
+    <input type="radio" name="q3" value="Pacific ocean"> Pacific ocean
+    <input type="radio" name="q3" value="Indian ocean"> Indian ocean
+    <input type="radio" name="q3" value="Arctic ocean"> Arctic ocean
+    <br><br>
+
+    <h3>Question 4:_______bank is called bankers bank of india?</h3>
+    <input type="radio" name="q4" value="Reserve Bank of India"> Reserve Bank of India
+    <input type="radio" name="q4" value="Punjab National Bank"> Punjab National Bank
+ 
+
+    <input type="radio" name="q4" value="State Bank of India"> State Bank of India
+    <br><br>
+
+    <h3>Question 5: Which country is known as the Land of the Rising Sun?</h3>
+    <input type="radio" name="q5" value="china"> China
+    <input type="radio" name="q5" value="southkorea"> South Korea
+    <input type="radio" name="q5" value="japan"> Japan
+    <br><br>
+
+    <h3>Question 6: Indus river originates in________</h3>
+    <input type="radio" name="q6" value="Tibet"> Tibet
+    <input type="radio" name="q6" value="Ladakh"> Ladakh
+    <input type="radio" name="q6" value="Nepal"> Nepal
+    <br><br>
+
+    <h3>Question 7: What is the chemical symbol for gold?</h3>
+    <input type="radio" name="q7" value="au"> Au
+    <input type="radio" name="q7" value="ag"> Ag
+    <input type="radio" name="q7" value="g"> G
+    <br><br>
+
+    <h3>Question 8: _______wrote sanskrit grammar?</h3>
+    <input type="radio" name="q8" value="Panini"> Panini
+    <input type="radio" name="q8" value="Kalidasa"> Kalidasa
+    <input type="radio" name="q8" value="Aryabhatt">  Aryabhatt
+    <br><br>
+
+    <h3>Question 9: Which of these is not a primary color?</h3>
+    <input type="radio" name="q9" value="red"> Red
+    <input type="radio" name="q9" value="green"> Green
+    <input type="radio" name="q9" value="purple"> Purple
+    <br><br>
+
+    <h3>Question 10: _______is the largest animal in the world?</h3>
+    <input type="radio" name="q10" value="Shark"> Shark
+    <input type="radio" name="q10" value="Blue Whale"> Blue Whale
+    <input type="radio" name="q10" value="Elephant"> Elephant 
+    <br><br>
+
+    <center><input type="submit" value="Submit"></center>
+</form>
+
+<div id="result"></div>
+
+<script>
+    document.getElementById("examForm").addEventListener("submit", function(event) {
+ 
+
+        event.preventDefault(); // Prevents the form from submitting normally
+
+        // Grading logic
+        let score = 0;
+
+        const q1Answer = document.querySelector('input[name="q1"]:checked');
+        const q2Answer = document.querySelector('input[name="q2"]:checked');
+        const q3Answer = document.querySelector('input[name="q3"]:checked');
+        const q4Answer = document.querySelector('input[name="q4"]:checked');
+        const q5Answer = document.querySelector('input[name="q5"]:checked');
+        const q6Answer = document.querySelector('input[name="q6"]:checked');
+        const q7Answer = document.querySelector('input[name="q7"]:checked');
+        const q8Answer = document.querySelector('input[name="q8"]:checked');
+        const q9Answer = document.querySelector('input[name="q9"]:checked');
+        const q10Answer = document.querySelector('input[name="q10"]:checked');
+        if (q1Answer && q1Answer.value === "Asia") {
+            score += 1;
+        }
+
+        if (q2Answer && q2Answer.value === "Nile") {
+            score += 1;
+        }
+
+        if (q3Answer && q3Answer.value === "Pacific ocean") {
+            score += 1;
+        }
+
+        if (q4Answer && q4Answer.value === "Reserve Bank of India") {
+            score += 1;
+        }
+
+        if (q5Answer && q5Answer.value === "japan") {
+            score += 1;
+        }
+
+        if (q6Answer && q6Answer.value === "Tibet") {
+            score += 1;
+        }
+
+        if (q7Answer && q7Answer.value === "au") {
+            score += 1;
+        }
+
+        if (q8Answer && q8Answer.value === "Panini") {
+            score += 1;
+        }
+ 
+
+
+        if (q9Answer && q9Answer.value === "purple") {
+            score += 1;
+        }
+
+        if (q10Answer && q10Answer.value === "Blue Whale") {
+            score += 1;
+        }
+
+        // Display result
+        const resultContainer = document.getElementById("result");
+        resultContainer.innerHTML = `<h2><center>Your Score: ${score}/10</center></h2>`;
+    });
+</script>
+
+</body>
+</html>
+

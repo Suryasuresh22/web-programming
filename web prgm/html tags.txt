@@ -1,0 +1,99 @@
+                                                               Profile
+<html>
+<head>
+<title></title></head>
+<center>
+<h1 style="background-color:grey;"><font color="white">PROFILE</font></h1>
+<body>
+<br>
+<h2>QUALIFICATION:<a href="details.html">Click Here</a></h2>
+<table border="2">
+<tr><td>Name</td>
+<td>Surya Suresh</td></tr>
+<tr><td>Email id</td>
+<td>suryasureshsurya@gmail.com</td></tr>
+<tr><td>Mobile no.</td>
+<td>554585221</td></tr>
+<tr><td>Gender</td>
+<td>Female</td></tr>
+<tr><td>Date of Birth</td>
+<td>13/08/2020</td></tr>
+<tr><td>Address</td>
+<td>surya bhavan</td></tr>
+<tr><td>Town</td>
+<td>kottarakara</td></tr>
+<tr><td>City</td>
+<td>Kollam</td></tr>
+<tr><td>Pincode</td>
+<td>691312</td></tr>
+</table>
+</body>
+</html>
+                                           TIME TABLE-GALLERY SHOWS
+<html>
+<head><title>
+</title>
+</head>
+<center>
+<h1 style="background-color:grey;"><font color="white">TIME TABLE-GALLERY SHOWS</font></h1>
+<table border="2">
+<tr><td>Gallery Name</td>
+<td>Place</td>
+<td>Date</td></tr>
+              Image
+<html>
+<head>
+<title></title>
+<body>
+<center>
+<h1 style="background-color:grey;"><font color="white">IMAGES</font></h1>
+<table>
+<tr>
+<td><img src="C:\Users\LENOVO\OneDrive\ドキュメント\Desktop\CHOCO WEB\mangoes-composition-royalty-free-image-463651383-1564092088.jpg" width="400" height="300"></td>
+<td><img src="C:\Users\LENOVO\OneDrive\ドキュメント\Desktop\CHOCO WEB\exotic-fruits.jpg" width="400" height="300"></td>
+<td><img src= "C:\Users\LENOVO\OneDrive\ドキュメント\Desktop\CHOCO WEB\strawberry-fruit-benefits_1612522874.avif"width="400" height="300"></td>
+</tr>
+<tr>
+<td><img src="C:\Users\LENOVO\OneDrive\ドキュメント\Desktop\CHOCO WEB\banana-fruit-illustration-cartoon-png.webp" width="400" height="300"></td>
+<td><img src="C:\Users\LENOVO\OneDrive\ドキュメント\Desktop\CHOCO WEB\95c5904eadf69ff2c3db22574614b150.jpeg" width="400" height="300"></td>
+<td><img src="C:\Users\LENOVO\OneDrive\ドキュメント\Desktop\CHOCO WEB\orange-1558624428.jpg" width="400" height="300"></td>
+height="300"></td>
+</tr>
+ </center>
+</body>
+</head>
+</html>
+                   LINKS
+<html>
+<head><title></title>
+</head>
+
+<center>
+<body>
+<h1 style="background-color:grey;"><font color="white">LINKS</font></h1>
+<table border="2">
+<tr><td>Tags</td>
+<td>Links</td></tr>
+<tr><td>Image Gallery</td>
+<td><a href="Img.html">Click here</td></tr>
+<tr><td>Time Table</td>
+<td><a href="Time table.html">Click Here</a></td></tr>
+<tr><td>Profile</td>
+<td><a href="profile.html">Click Here</a></td></tr>
+</table>
+</body>
+</html>
+                                                     Qualification
+<html>
+<head>
+<title></title>
+</head>
+<center>
+<body>
+ <h1>SURYA SURESH</h1>
+<br><br>
+<h3>BSC Graduate<br>
+Here you can see <br></h3>
+<h2><a href="links.html">MY DETAILS</a></h2>
+</body>
+</html>

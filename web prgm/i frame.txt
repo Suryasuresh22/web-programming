@@ -1,0 +1,140 @@
+       1.  COURSES
+<html>
+<head>
+<title>courses</title>
+</head>
+<body bgcolor="#FFB6C1">
+<center><h1><u>courses</u></h1>
+<a href="3.html" target="details"><b><i>BTECH</a><br>
+<a href="4.html" target="details">MTECH</a><br>
+<a href="5.html" target="details">MCA</i></b></a><br>
+</center>
+</body>
+</html>
+        2.   COURSE DETAILS
+<html>
+<head></head><title></title>
+<body bgcolor= “blue”></body>
+<h1>Course details should be displayed here</h1>
+</html>                          
+                                
+      4.       MCA
+<html>
+<head>
+<title>MCA</title>
+<center>
+<body bgcolor="tan">
+<h1>MCA</h1>
+<h3>MCA course or Master of Computer Application is a postgraduate degree programme of two years which provides comprehensive knowledge on the development of computer applications with the support of contemporary programming languages. The students pursuing the Computer Application course are given a chance to develop modern software through the help of sophisticated tools and techniques. MCA course is stretched in a time span of four semesters where the students learn skill development in computers, the conceptual study of the framework, and also work necessary project work.</h3>
+</body>
+</center>
+</head>
+</html>
+                                        5.       Mtech
+<html>
+<head>
+<title>M.TECH</title>
+<center>
+<body bgcolor="tan">
+<h1>M.TECH</h1>
+<h3>Full form of ME is Master of Engineering and MTech full form is Master of Technology. MTech is a professional postgraduate engineering master degree programme awarded to candidates after completion of two years of study in the discipline of engineering. This degree is predicated in a specific branch of engineering.</h3>
+</body>
+</center>
+</head>
+</html>                                        6.       Btech
+<html>
+<head>
+<title>B.TECH</title>
+<center>
+<body bgcolor="tan">
+<h1>B.TECH</h1>
+<h3>The full form of BTech is Bachelor of Technology (BTech). It is a professional undergraduate engineering degree course awarded to candidates after they complete four years of study in the field. Engineering is one of the most popular courses in India and there are many institutes that offer the course to aspiring students. Lakhs of students enroll every year in this prestigious and most popular course, BTech course is one of the most sought after courses in India. India produces more than 10 lakh engineering graduates every year and the engineering education in India comprises around 2500 engineering colleges and 1300 polytechnic colleges. </h3>
+</body>
+</center>
+</head>
+</html>
+     
+                            7.       To create Navigation Frame
+<html>
+<head><title>navigation</title></head>
+<frameset cols="30%,*">
+<frame src="details.html">
+<frame src="dis.html" >
+</frameset>
+</frame>
+</html>
+1.	   HTML Introduction
+<html>
+<head>
+<title>html intro</title>
+<body bgcolor="tan">
+<h1>HTML INTRODUCTION</h1>
+<font size="5"> HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.
+The first version of HTML was written by Tim Berners-Lee in 1993. Since then, there have been many different versions of HTML. The most widely used version throughout the 2000's was HTML 4.01, which became an official standard in December 1999. Another version, XHTML, was a rewrite of HTML as an XML language.</h5>
+</body>
+</head>
+</html>
+              2.LIST
+<html>
+<head>
+<title>list</title>
+<body bgcolor="tan">
+<h1>LIST</h1>
+<font size="5">HTML Lists are used to specify lists of information. All lists may contain one or more list elements. There are three different types of HTML lists: Ordered List or Numbered List (ol) Unordered List or Bulleted List (ul)</h5>
+</body>
+</head>
+</html> 
+        3        .TABLE
+<html>
+<head>
+<title>html table</title>
+<body bgcolor="tan">
+<h1>HTML TABLE</h1>
+<font size="5">HTML Table is an arrangement of data in rows and columns, or possibly in a more complex structure. Tables are widely used in communication, research, and data analysis. Tables are useful for various tasks such as presenting text information and numerical data.</h5>
+
+ 
+</body>
+</head>
+</html>
+                                     4.         FRAME
+
+<html>
+<head>
+<title>frame</title>
+<body bgcolor="tan">
+<h1>FRAME</h1>
+<font size="5"> HTML frames are used to divide your browser window into multiple sections where each section can load a separate HTML document. A collection of frames in the browser window is known as a frameset. The window is divided into frames in a similar way the tables are organized: into rows and columns.</h5>
+</body>
+</head>
+</html>
+                                   5.    MIXED FRAME PREPARATION
+<html>
+<head>
+<title>mixedframes</title>
+<frameset rows="50%,*">
+<frame src="htmli.html">
+<frameset cols="30%,*">
+<frame src="htmll.html">
+<frameset rows="50%,*">
+<frame src="htmlt.html">
+<frame src="htmlf.html">
+<no frame>
+<body>frame not working</body>
+</no frame>
+</frameset>
+</head>
+</html>
+                                        Floating Frame Preparation
+<html>
+<head>
+<title>iframes</title>
+</head>
+<body bgcolor="pink">
+<center>
+<h1>FRAME</h1>
+<hr>
+<iframe src="htmll.html" height="20%" width="20%" scrolling="yes"></iframe>
+<p><font size="5">The iframe in HTML stands for Inline frame.</p>
+</center>
+</body>
+</html>

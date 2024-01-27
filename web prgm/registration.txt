@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title></title>
+</head>
+<center>
+<body bgcolor="pink">
+    <from><br><br>
+   <table><tr>
+<caption><u><h1>REGISTRATION</h1></u></caption>
+   <th><B>User Id : </th><td></B><input type="text"><br></td></tr>
+<br><tr>
+        <th><B>Password : </th><td></B><input type="password"><br><br></tr></td>
+         <tr><th><B> Name : </th><td><B><input type="text"><br><br></td></tr>
+          <tr><th>Address : </th><td><textarea></textarea><br><br></tr></td>
+          <tr><th>Country : </th><td><select><br>
+            <option>India</option>
+            <option>America</option>
+            <option>London</option>
+            </select></tr></td><br><br>
+            <tr><th>pincode : </th><td><input type="text"></td></tr><br><br>
+           <tr><th>Email : </th><td><input type="email"><br><br></td></tr>
+           <tr><th> Mobile no : </th><td><input type="text"><br><br></tr></td>
+
+            <tr><th>Gender :</th><td><input type="radio">Male
+            <input type="radio">Female<br><br></tr></td>
+            <tr><th>Language : </th><td><input type="radio" >English
+            <input type="radio">Non English<br><br></tr></td>
+            <tr><th>About : </th><td><textarea></textarea><br><br><br><br></th></td>
+            <tr><th><input type="button" value="SUBMIT"></th><td></table></from></th></td>
+</body></center></html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

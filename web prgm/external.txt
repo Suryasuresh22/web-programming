@@ -1,0 +1,75 @@
+CODE:
+White chocolate
+<html>
+<head>
+<title><font size=20>white chocolate</font></title>
+</head>
+<body bgcolor="pink">
+<a href="C:\Users\LENOVO\OneDrive\ドキュメント\Desktop\CHOCO WEB\index.html">back</a>
+<h2><center><B>WHITE CHOCOLATE</B></h2></center>
+<img src="C:\Users\LENOVO\Downloads\cupcakes.html"width="700" height="650">
+<img src="C:\Users\LENOVO\Downloads\loveee.html"width="740" height="650">
+</body>
+</html>
+ Dark chocolate
+<html>
+<head>
+<title>DARK CHOCOLATE</title>
+</head>
+<body bgcolor="pink">
+<a href="C:\Users\LENOVO\OneDrive\ドキュメント\Desktop\CHOCO WEB\index.html">back</a>
+<h1><center>Dark choclate</h1></center>
+<img src="C:\Users\LENOVO\Downloads\dark.html"width="800" height="650">
+<img src="C:\Users\LENOVO\Downloads\kkkkkkkkk.html"width="650" height="650">
+</body>
+</html>
+Milk chocolate
+<html>
+<head>
+<title>MILK CHOCOLATE</title>
+</head>
+<body bgcolor="pink">
+<a href="C:\Users\LENOVO\OneDrive\ドキュメント\Desktop\CHOCO WEB\index.html">back</a>
+<h1><center>MILK CHOCOLATE</h1></center>
+<img src="C:\Users\LENOVO\Downloads\kkkkkkkkk.html"width="800" height="650">
+<img src="C:\Users\LENOVO\Downloads\ppppp.html"width="650" height="650">
+</body>
+</html>
+
+
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<style>
+.navbar{
+        width:85%;
+  margin:auto;
+        padding:35px 0;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+    }
+</style>
+    <div class="banner">
+        <div class="navbar">
+            <!-- <img src="logo.png" class="logo"> -->
+            <h1 style="font-size:40px;" style="color:yellowgreen">ChOcOlAtE wOrLd</h1>
+            <ul>
+                <li><a href="whitechoco.html">WHITE CHOCOLATE</a></li>
+                <li><a href="dark choco.html">DARK CHOCOLATE</a></li>
+                <li><a href="milkmilk.html">MILK CHOCOLATE</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2 style="font-size:60;">chocolate:a little piece of heaven</h2>
+            <p></p>
+            <div>
+            <button type="button"><span></span>Book Now</button>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
